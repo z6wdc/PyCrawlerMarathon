@@ -6,4 +6,6 @@
 *.csv.gz
 *.txt
 
+!requirements.txt
+
 venv
