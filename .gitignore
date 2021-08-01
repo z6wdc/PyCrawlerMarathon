@@ -5,6 +5,8 @@
 *.csv
 *.csv.gz
 *.txt
+*.zip
+*.xml
 
 !requirements.txt
 
