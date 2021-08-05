@@ -1,6 +1,9 @@
 jupyterlab
 chardet
 xmltodict
+
 beautifulsoup4
 html5lib
 lxml
+
+Pillow
