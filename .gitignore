@@ -8,6 +8,8 @@
 *.zip
 *.xml
 
+*.jpeg
+
 !requirements.txt
 
 venv
