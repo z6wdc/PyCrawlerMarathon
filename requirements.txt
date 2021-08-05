@@ -6,4 +6,8 @@ beautifulsoup4
 html5lib
 lxml
 
+grab
+
+pyquery
+
 Pillow
