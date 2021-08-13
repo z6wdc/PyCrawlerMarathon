@@ -2,6 +2,9 @@ jupyterlab
 chardet
 xmltodict
 
+pandas
+matplotlib
+
 beautifulsoup4
 html5lib
 lxml
