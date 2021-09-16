@@ -13,3 +13,5 @@
 !requirements.txt
 
 venv
+
+chromedriver
