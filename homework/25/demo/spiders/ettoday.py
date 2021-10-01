@@ -1,4 +1,5 @@
 import scrapy
+from demo.items import DemoItem
 
 class EttodaySpider(scrapy.Spider):
     name = 'ettoday'
@@ -9,6 +10,8 @@ class EttodaySpider(scrapy.Spider):
                   'https://www.ettoday.net/news/20201009/1826868.htm']
 
     def parse(self, response):
-        print(response.xpath('//title/text()').get())
-        print(response.xpath('//div[@itemprop="articleBody"]//p/text()').getall())
+        item = DemoItem()
+        item['title'] = response.xpath('//title/text()').get()
+        item['content'] = response.xpath('//div[@itemprop="articleBody"]//p/text()').getall()
+        yield item
         
