@@ -20,3 +20,5 @@ Pillow
 scrapy
 
 pytesseract
+
+aiohttp
