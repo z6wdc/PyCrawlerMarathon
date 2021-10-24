@@ -22,3 +22,5 @@ scrapy
 pytesseract
 
 aiohttp
+
+schedule
